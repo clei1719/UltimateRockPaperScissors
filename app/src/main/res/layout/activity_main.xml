@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created by: \nMarkEisenzimmerProductions@gmail.com"
+            android:textColor="#F6F7F8" />
+
+        <TextView
+            android:id="@+id/calculatorScreen"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:background="#000000"
+            android:fontFamily="@font/luckiest_guy"
+            android:gravity="center|right"
+            android:text="Welcome \n \n TO"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="#081E6D"
+            android:fontFamily="@font/luckiest_guy"
+            android:gravity="center|right"
+            android:text="Rock"
+            android:textAlignment="center"
+            android:textColor="#B46610"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="#081E6D"
+            android:fontFamily="@font/luckiest_guy"
+            android:gravity="center|right"
+            android:text="Paper"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:background="#081E6D"
+            android:fontFamily="@font/luckiest_guy"
+            android:gravity="center|right"
+            android:text="Scissors"
+            android:textAlignment="center"
+            android:textColor="#BB00FF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/MenuStartButton"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_margin="12sp"
+            android:background="#000000"
+            android:hint="Press Button"
+            android:text="Click Here to Start!!"
+            android:textColor="#BB00FF"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
